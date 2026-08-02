@@ -1,0 +1,39 @@
+{
+  "name": "imagerting",
+  "version": "1.0.0",
+  "description": "image rating App",
+  "keywords": [
+    "image",
+    "rating"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "irtApp"
+  },
+  "license": "ISC",
+  "author": "Arun Pandey",
+  "type": "commonjs",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "dev": "nodemon backend/src/server.js",
+    "test": "test"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.37.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.14.3",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
