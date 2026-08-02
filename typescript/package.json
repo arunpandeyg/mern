@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "practice project",
+  "keywords": [
+    "typeScript",
+    "javaScript"
+  ],
+  "license": "ISC",
+  "author": "Arun Pandey",
+  "type": "module",
+  "main": "backend/src/server.ts",
+  "scripts": {
+    "dev": "nodemon backend/src/server.ts",
+    "test": "test",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3"
+  }
+}
