@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
+
+// {
+//     "compilerOptions": {
+//         "ignoreDeprecations": "6.0",
+//         "baseUrl": "./",
+//         "paths": {
+//             "@components/*": ["./src/components/*"],
+//             "@utils/*": ["./src/utils/*"],
+//             "@styles/*": ["./src/styles/*"]
+//         }
+//     },
+//     "include": ["src"]
+// }
