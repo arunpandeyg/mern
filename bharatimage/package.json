@@ -1,0 +1,45 @@
+{
+  "name": "bims",
+  "version": "1.0.0",
+  "description": "user authentication project practice app",
+  "keywords": [
+    "auth",
+    "rtkq"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arunpandeysd/bims.git"
+  },
+  "license": "ISC",
+  "author": "Arun Pandey",
+  "type": "module",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "dev": "nodemon backend/src/server.js",
+    "start": "nodemon backend/src/server.js",
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^1.13.5",
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.2",
+    "cloudinary": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.5.2",
+    "helmet": "^8.1.0",
+    "imagekit": "^6.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.5",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
